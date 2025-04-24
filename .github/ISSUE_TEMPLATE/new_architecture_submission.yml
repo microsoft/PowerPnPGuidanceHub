@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you for contributing to the [Power Platform and Copilot Studio Architecture Center](https://learn.microsoft.com/power-platform/architecture/)! Registering your work here is the first step in contributing. Use the templates at [https://github.com/microsoft/PowerPnPGuidanceHub/templates/architecture](https://github.com/microsoft/PowerPnPGuidanceHub/templates/architecture) to work on your contribution. Microsoft reviews all contributions.
+        Thank you for contributing to the [Power Platform and Copilot Studio Architecture Center](https://learn.microsoft.com/power-platform/architecture/)! First, register your work here as the first step in contributing. Then, use the templates at [https://github.com/microsoft/PowerPnPGuidanceHub/templates/architecture](https://github.com/microsoft/PowerPnPGuidanceHub/templates/architecture) to work on your article. Once you are done writing your article, attach the file in a comment and mark the status of this issue as "ready for review".
   - type: dropdown
     id: organization-type
     attributes:
@@ -73,5 +73,5 @@ body:
       value: "## Thanks!"
   - type: markdown
     attributes:
-      value: Thank you for contributing to the [Power Platform and Copilot Studio Architecture Center](https://learn.microsoft.com/power-platform/architecture/). 
+      value: Thank you for contributing to the [Power Platform and Copilot Studio Architecture Center](https://learn.microsoft.com/power-platform/architecture/). We triage the contributions regularly and use it to plan for future documentation improvements.  Microsoft reviews all contributions.
    
