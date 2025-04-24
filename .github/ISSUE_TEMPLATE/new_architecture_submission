@@ -1,0 +1,77 @@
+name: New key concept, reference architecture, or solution idea
+description: Use this issue type to register that you have started work on a new key concept, reference architecture, or solution idea for the Power Platform and Copilot Studio Architecture Center
+title: "[ARCHITECTURE]: "
+labels: ["new-architecture", "triage"]
+assignees:
+  - manuelap-msft
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing to the [Power Platform and Copilot Studio Architecture Center](https://learn.microsoft.com/power-platform/architecture/)! Registering your work here is the first step in contributing. Use the templates at [https://github.com/microsoft/PowerPnPGuidanceHub/templates/architecture](https://github.com/microsoft/PowerPnPGuidanceHub/templates/architecture) to work on your contribution. Microsoft reviews all contributions.
+  - type: dropdown
+    id: organization-type
+    attributes:
+      label: "Organization type"
+      description: Which type of organization do you work for?
+      options:
+        - "Microsoft MVP"
+        - "Partner / ISV / Independant consultant"
+        - "Customer organization"
+        - "Microsoft employee"
+    validations:
+      required: true
+  - type: dropdown
+    id: content-type
+    attributes:
+      label: "Content type"
+      description: Which type of content are you contributing? Learn more about the different [content types](https://learn.microsoft.com/power-platform/architecture/architecture-center-overview).
+      options:
+        - "Reference architecture"
+        - "Solution idea"
+        - "Key concept"
+    validations:
+      required: true
+  - type: input
+    id: content-title
+    attributes:
+      label: "What's the title of your key concept, reference architecture, or solution idea?" 
+      value: "Use SQL Server with canvas apps"
+    validations:
+      required: true
+  - type: textarea
+    id: content-description
+    attributes:
+      label: "Describe your key concept, reference architecture, or solution idea" 
+      value: "Best practices, recommendations and anti-patterns for using SQL server as a data source in canvas apps."
+    validations:
+      required: true
+  - type: textarea
+    id: comments
+    attributes:
+      label: "Enter any additional comments or information you want us to know."
+      description: "Write your comments"
+    validations:
+      required: false
+  - type: input
+    id: expected-date
+    attributes:
+      label: "Specify the date you expect the article to be completed and ready for review." 
+      description: "Please include the month, date, and year in the format mm/dd/yyyy"
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/), or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
+  - type: markdown
+    attributes:
+      value: "## Thanks!"
+  - type: markdown
+    attributes:
+      value: Thank you for contributing to the [Power Platform and Copilot Studio Architecture Center](https://learn.microsoft.com/power-platform/architecture/). 
+   
