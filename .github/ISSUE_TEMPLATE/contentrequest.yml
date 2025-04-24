@@ -15,7 +15,6 @@ body:
       label: Describe the type of key concept, reference architecture or solution idea for the Power Platform and Copilot Studio Architecture Center
       description: Also, tell us what you expected to see?
       placeholder: Tell us what you want to see!
-      value: ""
     validations:
       required: true  
   - type: checkboxes
