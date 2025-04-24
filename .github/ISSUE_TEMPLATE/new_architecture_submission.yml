@@ -1,4 +1,4 @@
-name: New key concept, reference architecture, or solution idea
+name: New reference architecture, or solution idea contribution
 description: Use this issue type to register that you have started work on a new key concept, reference architecture, or solution idea for the Power Platform and Copilot Studio Architecture Center
 title: "[ARCHITECTURE]: "
 labels: ["new-architecture", "triage"]
