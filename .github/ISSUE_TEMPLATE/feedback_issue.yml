@@ -1,0 +1,33 @@
+name: Content feedback or issue
+description: Share feedback on a whitepaper, workbook, or other content available from Power PnP.
+title: "[ISSUE]: "
+labels: ["issue", "triage"]
+assignees:
+  - manuelap-msft
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for submitting this feedback. We triage feedback regularly and use it to plan for future documentation improvements. Not all content requests are implemented, but we'll prioritize based on current work priorities and the tooling available.
+  - type: dropdown
+    id: component
+    attributes:
+      label: What content are you experiencing the issue with?
+      options:
+        - Adoption workbook
+        - Hackathon workbook
+        - Business value plays
+        - Enterprise Security with Power Platform whitepaper
+        - Managing Power Automate Desktop on Windows whitepaper
+        - Administering a Low-Code Intelligent Automation Platform whitepaper
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the issue
+      description: A concise description of what you're experiencing. Also, tell us what you expected to see?
+      placeholder: Tell us what you want to see!
+    validations:
+      required: true
