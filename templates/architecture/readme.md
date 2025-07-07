@@ -6,5 +6,4 @@ We welcome contributions to the [Power Platform and Copilot Studio Architecture 
 1. The GitHub repo contains Word templates that you can use to capture your contribution. All Word templates are in the [templates/architecture folder](https://github.com/microsoft/PowerPnPGuidanceHub/templates/architecture). The folder also contains a PowerPoint template and a Visio template that can help you design the diagrams you need. Alternatively, use your own diagrams.
 1. When you're ready to submit a new article, attach the files to your GitHub issue and change the label to *ready for review*. Optionally, add your LinkedIn profile so that you can be listed as the original author in the *Contributors* section of the article.
 
-2. Learn more:
-3. - [Contribute to the Power Platform and Copilot Studio Architecture Center](https://learn.microsoft.com/power-platform/architecture/contribute)
+2. Learn more: [Contribute to the Power Platform and Copilot Studio Architecture Center](https://learn.microsoft.com/power-platform/architecture/contribute)
