@@ -3,7 +3,7 @@ description: Use this issue type to register that you have started work on a new
 title: "[ARCHITECTURE]: "
 labels: ["new-architecture", "triage"]
 assignees:
-  - manuelap-msft
+  - carcla
 body:
   - type: markdown
     attributes:
